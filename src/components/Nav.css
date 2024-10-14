@@ -1,0 +1,41 @@
+.nav-container {
+    background-color: transparent;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #97057f;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 20px;
+    /* Adăugăm un margin la stânga pentru a separa logo-ul de marginile containerului */
+}
+
+.nav-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #8a2be2;
+    border-radius: 10px;
+}
+
+.nav-ul li {
+    margin: 0 10px;
+}
+
+.nav-link {
+    display: block;
+    color: #eb05b1;
+    background-color: #8a2be2;
+    padding: 10px 20px;
+    transition: background-color 0.3s, transform 0.2s ease;
+}
+
+.nav-link:hover {
+    background-color: #6a1b9a;
+    transform: scale(1.1);
+}

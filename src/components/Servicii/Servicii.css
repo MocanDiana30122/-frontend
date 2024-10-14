@@ -1,0 +1,49 @@
+.servicii-container {
+    padding: 20px;
+}
+
+.servicii-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.servicii-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.servicii-header p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.servicii-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.serviciu-item {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.serviciu-item h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+    cursor: pointer;
+}
+
+.detalii {
+    margin-top: 10px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    color: #555;
+    font-size: 1.1em;
+    opacity: 0;
+}

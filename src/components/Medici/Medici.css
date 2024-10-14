@@ -1,0 +1,145 @@
+.medici-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.medici-list-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow-y: auto;
+    max-height: 80vh;
+}
+
+.medici-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.medic-item {
+    margin: 10px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    max-width: 100%;
+    position: relative;
+}
+
+.medic-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.medic-item img {
+    width: 200px;
+    /* Dimensiune mărită a imaginii */
+    height: 200px;
+    /* Dimensiune mărită a imaginii */
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.medic-item h2 {
+    font-size: 1.5em;
+    /* Dimensiune mărită a textului */
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.medic-item p {
+    color: #666;
+    font-size: 1.2em;
+    /* Dimensiune mărită a textului */
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.medic-item.deschis {
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.detalii-medic {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.detalii-medic p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.detalii-button,
+.programare-button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.detalii-button:hover,
+.programare-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.detalii-button:active,
+.programare-button:active {
+    background-color: #004080;
+    transform: scale(1);
+}
+
+
+/* Adăugare buton de închidere pentru formular */
+
+.inchide-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.inchide-button:hover {
+    background-color: #cc0000;
+    transform: scale(1.1);
+}
+
+.inchide-button:active {
+    background-color: #990000;
+    transform: scale(1);
+}

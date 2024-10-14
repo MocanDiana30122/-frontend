@@ -1,0 +1,47 @@
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.inputBox {
+    width: calc(100% - 40px);
+    /* Ajustăm lățimea pentru a ocupa jumătate din lățimea containerului */
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.appButton {
+    width: 100%;
+    /* Butonul va avea lățimea întreagă a containerului */
+    margin-top: 20px;
+    /* Adăugăm o mică margine între input-uri și buton */
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #8a2be2;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.appButton:hover {
+    background-color: #6a1b9a;
+}

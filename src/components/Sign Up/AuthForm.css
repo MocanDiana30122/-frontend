@@ -1,0 +1,48 @@
+/* Centrăm containerul în pagină */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Stilurile pentru form-container */
+.form-container {
+    width: 600px; /* Lățimea containerului de form */
+    margin-top: -80px; /* Aducem containerul un pic mai sus */
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    position: relative;
+}
+
+/* Stilurile pentru input-uri */
+.inputBox {
+    width: 100%; /* Lățimea input-urilor va fi de 100% */
+    height: 50px; /* Mărim înălțimea casetelor de input */
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Stilurile pentru buton */
+.appButton {
+    width: 100%; /* Lățimea butonului va fi de 100% */
+    height: 50px; /* Mărim înălțimea butonului */
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #8a2be2;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.appButton:hover {
+    background-color: #6a1b9a;
+}

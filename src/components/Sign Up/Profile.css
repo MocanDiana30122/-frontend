@@ -1,0 +1,109 @@
+.profile-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: url('https://i.ibb.co/82RqRjk/cde42dd0-da34-4ae2-92f3-49a5231b8677.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-container h1,
+.profile-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+    /* Schimbăm culoarea textului pentru a fi vizibil pe fundal */
+}
+
+.personal-info,
+.appointments,
+.medical-analyses {
+    margin-bottom: 20px;
+}
+
+.personal-info h2,
+.appointments h2,
+.medical-analyses h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.personal-info p,
+.appointment-item p,
+.analysis-item p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.appointment-item,
+.analysis-item {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+.reset-password-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.reset-password-button {
+    background-color: #0056b3;
+}
+
+.reset-password-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.reset-password-form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.reset-password-form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.reset-password-form-container label {
+    margin-bottom: 5px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.reset-password-form-container input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.reset-password-form-container input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.reset-password-form-container input[type="submit"] {
+    background-color: #0056b3;
+}

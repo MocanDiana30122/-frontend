@@ -1,0 +1,149 @@
+.acasa-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: #992f99;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.header p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+}
+
+.features {
+    background-color: white;
+    padding: 30px;
+    margin: 20px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.features h2 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    color: #333;
+}
+
+.features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.features li {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.about {
+    background-color: white;
+    padding: 30px;
+    margin: 20px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about h2 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    color: #333;
+}
+
+.about p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Stiluri pentru efectele de tranziție */
+
+.acasa-container section {
+    transition: all 0.3s ease;
+}
+
+
+/* Stiluri pentru efectele de hover */
+
+.acasa-container section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Stiluri pentru butoane */
+
+.acasa-container button {
+    background-color: #992f99;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.acasa-container button:hover {
+    background-color: #6a1b9a;
+}
+
+
+/* Stiluri pentru imaginile din secțiunea "Despre noi" */
+
+.acasa-container .medical-icons img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+    transition: transform 0.3s;
+}
+
+.acasa-container .medical-icons img:hover {
+    transform: scale(1.1);
+}
+
+
+/* Stiluri pentru containerul imaginilor */
+
+.acasa-container .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/* Stiluri pentru imaginile suplimentare */
+
+.acasa-container .image-container img {
+    width: 500px;
+    /* Redimensionăm imaginile la o lățime fixă */
+    height: auto;
+    margin: 10px;
+    /* Adăugăm un spațiu între imagini */
+}

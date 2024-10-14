@@ -1,0 +1,57 @@
+.footer {
+    width: 100%;
+    background-color: #f9a8d4;
+    /* Roz deschis */
+    padding: 5px;
+    text-align: center;
+    border-top: 2px solid #b8066e;
+    margin: 0 auto;
+}
+
+.footer h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #4f0466;
+}
+
+.footer p {
+    font-size: 14px;
+    color: #b8b1b1;
+}
+
+.medical-icons {
+    margin-top: 5px;
+}
+
+.medical-icon {
+    width: 20px;
+    margin: 0 300px;
+    /* Adăugați spațiu între imagini */
+    transition: transform 0.3s ease;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    /* Face ca imaginea să ocupe întreaga lățime a containerului */
+    height: 100%;
+    /* Face ca imaginea să ocupe întreaga înălțime a containerului */
+    object-fit: cover;
+}
+
+.label {
+    position: absolute;
+    top: 10px;
+    /* Poziționăm eticheta la 10 pixeli deasupra imaginii */
+    left: 10px;
+    /* Poziționăm eticheta la 10 pixeli de la stânga imaginii */
+    background-color: rgba(245, 194, 255, 0.5);
+    /* Fundal semi-transparent pentru etichetă */
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.medical-icon:hover {
+    transform: rotate(360deg);
+}
